@@ -6,62 +6,62 @@
 
 Array adalah sebuah jenis tipe data yang dapat menampung tipe data apapun termasuk array itu sendiri. Array pada JS data yang ada di dalamnya dihitung mulai dari index ke-0, atau data pertamanya adalah index ke-0.
 
-  &nbsp;
+&nbsp;
 
 ## Array Methods
 
 Array memiliki method atau biasa disebut built-in methods, yang sama dengan function yang dapat digunakan kapan saja kita membutuhkannya.
 
-  &nbsp;
+&nbsp;
 
-  - .push()
+- .push()
 
-    menambahkan array pada index terakhir
+  menambahkan array pada index terakhir
 
-  - .pop()
+- .pop()
 
-    Menghapus array pada index terakhir
+  Menghapus array pada index terakhir
 
-  - .shift()
+- .shift()
 
-    Menghapus array pada index pertama
+  Menghapus array pada index pertama
 
-  - .unshift()
+- .unshift()
 
-    Menambahkan array pada index pertama
+  Menambahkan array pada index pertama
 
-  - .sort()
+- .sort()
 
-    Mengurutkan array secara ascending maupun descending
+  Mengurutkan array secara ascending maupun descending
 
-  &nbsp;
+&nbsp;
 
 ## Looping Array
 
-  &nbsp;
+&nbsp;
 
-  Array memiliki 2 macam cara untuk melakukan looping
+Array memiliki 2 macam cara untuk melakukan looping
 
-  - .forEach()
-  - .map()
+- .forEach()
+- .map()
 
-  &nbsp;
+&nbsp;
 
-  Letak perbedaannya hanya jika .forEach akan melakukan perulangan pada setiap element array tanpa membuat array baru, sedangkan .map() akan melakukan perulangan dan menghasilkan nilai balik berupa array baru
+Letak perbedaannya hanya jika .forEach akan melakukan perulangan pada setiap element array tanpa membuat array baru, sedangkan .map() akan melakukan perulangan dan menghasilkan nilai balik berupa array baru
 
-  &nbsp;
+&nbsp;
 
 ## Multidimensional Array
 
 Multidimensional array bisa bisa dianalogikan dengan array of array. Artinya array di dalam sebuah array.
 
-  &nbsp;
+&nbsp;
 
 # Rekursif
 
 Rekursif adalah sebuah function yang memanggil dirinya sendiri sampai kondisi tertentu. Biasanya digunakan untuk kasus yang melibatkan operasi matematika di dalamnya. Adapun ciri-ciri dari rekursif adalah selalu memiliki kondisi yang menyatakan kapan fungsi tersebut akan berhenti. Tujuan utama dari rekursif adalah memecahkan masalah dengan mengurangi masalah tersebut menjadi masalah-masalah kecil.
 
-![gambar](Gambar/Capture.PNG)
+<!-- ![gambar]() -->
 
 &nbsp;
 
@@ -106,22 +106,22 @@ Web storage terdapat di dalam website yang bersangkutan dan datanya mengikat ter
 
 Local storage adalah tempat penyimpanan data yang memiliki karateristik :
 
-  - Menyimpan data tanpa kadaluarsa
-  - Data tidak akan dihapus walaupun web browsernya ditutup sekalipun
-  - Hanya menyimpan data berupa string
+- Menyimpan data tanpa kadaluarsa
+- Data tidak akan dihapus walaupun web browsernya ditutup sekalipun
+- Hanya menyimpan data berupa string
 
 &nbsp;
 
 ## Session Storage
 
-  Berbeda dengan local storage yang datanya akan tetap tersimpan walaupun web browsernya ditutup, data yang tersimpan di dalam session storage akan hilang ketika web browsernya ditutup. Session storage memiliki karateristik :
+Berbeda dengan local storage yang datanya akan tetap tersimpan walaupun web browsernya ditutup, data yang tersimpan di dalam session storage akan hilang ketika web browsernya ditutup. Session storage memiliki karateristik :
 
-  - Data yang disimpan pada session storage akan terus tersimpan selama browser terbuka
-  - Membuka banyak tab/window dengan URL yang sama, akan menciptakan session storage yang berbeda di masing-masing tab/window.
-  - Menutup tab/window akan mengakhiri session dan menghapus data yang tersimpan di session storage pada tab/window tersebut.
-  - Data yang tersimpan dalam session storage harus berbentuk string.
+- Data yang disimpan pada session storage akan terus tersimpan selama browser terbuka
+- Membuka banyak tab/window dengan URL yang sama, akan menciptakan session storage yang berbeda di masing-masing tab/window.
+- Menutup tab/window akan mengakhiri session dan menghapus data yang tersimpan di session storage pada tab/window tersebut.
+- Data yang tersimpan dalam session storage harus berbentuk string.
 
-  &nbsp;
+&nbsp;
 
 # Asynchronous
 
@@ -135,7 +135,3 @@ Namun asynchronous memiliki kelemahan yaitu ada satu perintah yang bergantung pa
 - Promise
 - Async/await
 - Fetch
-
-&nbsp;
-
-# Sekian dan Terimakasih
